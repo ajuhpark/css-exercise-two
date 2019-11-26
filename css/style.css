@@ -1,13 +1,30 @@
 body {
-  background-color: #ff0000;
+  background-color: white;
   color: #0000FF;
 }
-
+.container {
+  margin: 0 auto;
+  width: 50%;
+  font-size: 18px;
+  color: black;
+  line-height: 1.25;
+}
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,.2);
   float: left;
   position: fixed;
   width: 100%;
+}
+
+figcaption{
+  font-size: 15px;
+  padding-bottom: 40px;
+}
+
+h1{
+font-size: 30px;
+font-style: normal;
+
 }
 
 .logo {
@@ -44,10 +61,4 @@ li {
 
 article {
   padding-top: 100px;
-}
-
-.container {
-  margin: 0 auto;
-  width: 50%;
-  font-size: 18px;
 }
