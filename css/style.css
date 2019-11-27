@@ -48,11 +48,6 @@ p{
 margin-bottom: 18px;
 }
 
-p1{
-  padding-bottom: 50px;
-  margin-bottom:100px;
-}
-
 .author{
   font-size:15px;
   font-weight:bold;
@@ -93,4 +88,8 @@ li {
 
 article {
   padding-top: 100px;
+}
+
+body{
+  font-size:18px;
 }
