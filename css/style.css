@@ -2,6 +2,14 @@ body {
   background-color: white;
   color: #0000FF;
 }
+
+/* Edit font size from this location.
+Can put on bottom on stylesheet if I want these to override.*/
+body, p, h1, h3, .author, figcaption{
+  font-size:18px;
+}
+
+
 .container {
   margin: 0 auto;
   width: 50%;
@@ -88,8 +96,4 @@ li {
 
 article {
   padding-top: 100px;
-}
-
-body{
-  font-size:18px;
 }
